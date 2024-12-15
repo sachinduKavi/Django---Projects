@@ -4,4 +4,8 @@ from django.http import HttpResponse
 
 # Create your views here.
 def firstFunction(request): 
-    return render(request, 'template/index.js')
+    return render(request, 'index.html')
+
+
+def secondFunction(request):
+    return render(request, 'second.html')
